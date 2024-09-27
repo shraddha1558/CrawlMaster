@@ -16,7 +16,7 @@ This project involves developing a multi-threaded web crawler designed to system
   Maintains a set of visited links to avoid redundant processing and ensure that each URL is only visited once, reducing unnecessary requests and avoiding potential loops.
 
 - **Error Handling and Robustness:**
-  Includes mechanisms to handle HTTP errors and other exceptions gracefully, ensuring that the crawler continues operation even if individual requests fail.
+  Includes mechanisms to handle HTTP errors and other exceptions gracefully, ensuring that the crawler continues operation even if individual request fail.
 
 - **Politeness Policy:**
   Implements a delay between requests to avoid overloading the target server, adhering to best practices for respectful crawling.
